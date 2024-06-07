@@ -8,11 +8,17 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
 
     Você pode baixar o script de instalação executando o seguinte comando no seu terminal:
 
+    **Linux:**
     ```bash
     curl -O https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/Instalacao.sh
     ```
 
-2. **Execute o Script:**
+    **Windows:**
+   ```
+
+   ```
+
+3. **Execute o Script:**
 
     Após baixar o script, você pode executá-lo para iniciar o processo de instalação. Certifique-se de ter as permissões necessárias para executar scripts no seu sistema operacional. Você pode executar o script com o seguinte comando:
 
