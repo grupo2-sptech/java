@@ -11,12 +11,7 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
     ```bash
     curl -O https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao.sh
     ```
-
-    **Windows:**
-   ```cmd
-    powershell -command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao-win.bat', 'instalacao-win.bat')"
-   ```
-
+    
 2. **Execute o Script:**
 
     Após baixar o script, você pode executá-lo para iniciar o processo de instalação. Certifique-se de ter as permissões necessárias para executar scripts no seu sistema operacional. Você pode executar o script com o seguinte comando:
@@ -25,12 +20,7 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
     ```bash
     bash instalacao.sh
     ```
-
-    **Windows:**
-    ```cmd
-    instalacao-win.bat
-    ```
-
+    
     Isso iniciará o processo de instalação e seguirá as instruções fornecidas.
 
 3. **Nota importante:**
@@ -40,10 +30,6 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
     **Linux:**
     ```bash
     nano instalacao.sh
-    ```
-    **Windows:**
-    ```cmd
-    notepad instalacao-win.bat
     ```
 
 Se você tiver alguma dúvida ou encontrar problemas durante o processo de instalação, sinta-se à vontade para [abrir um problema](https://github.com/grupo2-sptech/script-instalacao/issues) no repositório.
