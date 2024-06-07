@@ -14,8 +14,7 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
 
     **Windows:**
    ```cmd
-    powershell -command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao-    
-    win.bat', 'instalacao-win.bat')"
+    powershell -command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao-win.bat', 'instalacao-win.bat')"
    ```
 
 2. **Execute o Script:**
