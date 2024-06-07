@@ -21,6 +21,7 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
 3. **Execute o Script:**
 
     Após baixar o script, você pode executá-lo para iniciar o processo de instalação. Certifique-se de ter as permissões necessárias para executar scripts no seu sistema operacional. Você pode executar o script com o seguinte comando:
+   
     **Linux**
     ```bash
     bash instalacao.sh
@@ -33,11 +34,10 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
 
     Isso iniciará o processo de instalação e seguirá as instruções fornecidas.
 
-## Nota Importante
+4. **Nota importante:**
 
-Certifique-se de revisar o script de instalação antes de executá-lo em seu sistema. Sempre é recomendável entender o que um script faz antes de permitir que ele faça alterações em seu sistema.
+    Certifique-se de revisar o script de instalação antes de executá-lo em seu sistema. Sempre é recomendável entender o que um script faz antes de permitir que ele faça alterações em seu sistema. Para vizualizar o arquivo use o seguinte comando:
 
-Para vizualizar o arquivo use o seguinte comando:
     **Linux**
     ```bash
     nano instalacao.sh
