@@ -23,7 +23,15 @@ Este é um guia simples para instalar o aplicativo usando o script de instalaç�
     
     Isso iniciará o processo de instalação e seguirá as instruções fornecidas.
 
-3. **Nota importante:**
+3. **Executando aplicação:**
+
+    **Linux:**
+    Após a conclusão da instalação, utilize o comando abaixo para iniciar a aplicação e inserir suas credenciais de acesso:
+    ```bash
+    sudo docker exec -it java-app java -jar /app-cliente.jar
+    ```
+
+4. **Nota importante:**
 
     Certifique-se de revisar o script de instalação antes de executá-lo em seu sistema. Sempre é recomendável entender o que um script faz antes de permitir que ele faça alterações em seu sistema. Para vizualizar o arquivo use o seguinte comando:
 
