@@ -104,7 +104,7 @@ version: '3.8'
 services:
   mysql-server:
     container_name: mysql-server
-    image: joaogalhardo/mysql-server:5.7
+    image: darkklua/mysql-server:5.7
     restart: always
     ports:
       - "3306:3306"
@@ -117,7 +117,7 @@ services:
 
   java-app-seguranca:
     container_name: java-app-seguranca
-    image: joaogalhardo/java-app-seguranca:17
+    image: darkklua/java-app-seguranca:17
     restart: always
     depends_on:
       - mysql-server
