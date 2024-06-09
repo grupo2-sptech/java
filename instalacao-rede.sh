@@ -104,7 +104,7 @@ version: '3.8'
 services:
   mysql-server:
     container_name: mysql-server
-    image: joaogalhardo/mysql-server:5.7
+    image: jonathancarvalho039/mysql-server:5.7
     restart: always
     ports:
       - "3306:3306"
@@ -117,7 +117,7 @@ services:
 
   java-app-rede:
     container_name: java-app-rede
-    image: joaogalhardo/java-app-rede:17
+    image: jonathancarvalho039/java-app-rede:17
     restart: always
     depends_on:
       - mysql-server
