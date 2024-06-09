@@ -104,7 +104,7 @@ version: '3.8'
 services:
   mysql-server:
     container_name: mysql-server
-    image: joaogalhardo/mysql-server:5.7
+    image: volpekaique/mysql-server:5.7
     restart: always
     ports:
       - "3306:3306"
@@ -117,7 +117,7 @@ services:
 
   java-app-usb:
     container_name: java-app-usb
-    image: joaogalhardo/java-app-usb:17
+    image: volpekaique/java-app-usb:17
     restart: always
     depends_on:
       - mysql-server
