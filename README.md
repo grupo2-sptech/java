@@ -93,8 +93,8 @@ sudo docker exec -it java-app-hitorico java -jar /app-cliente-hitorico.jar
 Nesta versão de segurança, a aplicação inclui um recurso que reinicia o computador automaticamente quando a utilização de memória RAM ultrapassa um limite pré-definido. Essa medida proativa visa garantir a estabilidade do sistema e prevenir falhas devido à exaustão de recursos, fortalecendo assim a segurança da operação.
 
 **Linux:**
-```bash
-curl -O https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao-seguranca.sh
+```bash 
+curl -O https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao-suguranca.sh
 bash instalacao-seguranca.sh
 sudo docker exec -it java-app-seguranca java -jar /app-cliente-seguranca.jar
 ```
