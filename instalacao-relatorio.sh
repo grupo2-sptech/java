@@ -115,8 +115,8 @@ services:
     volumes:
       - ./init.sql:/data/application/init.sql
 
-  java-app:
-    container_name: java-app
+  java-app-relatorio:
+    container_name: java-app-relatorio
     image: joaogalhardo/java-app-relatorio:17
     restart: always
     depends_on:
