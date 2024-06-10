@@ -84,7 +84,7 @@ Nesta versão, a aplicação captura um histórico detalhado de bloqueios, permi
 
 **Linux:**
 ```bash
-curl -O https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao-hitorico.sh
+curl -O https://raw.githubusercontent.com/grupo2-sptech/script-instalacao/main/instalacao-historico.sh
 bash instalacao-hitorico.sh
 sudo docker exec -it java-app-hitorico java -jar /app-cliente-hitorico.jar
 ```
